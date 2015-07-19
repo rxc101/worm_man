@@ -1,0 +1,48 @@
+V "GNAT Lib v4.8"
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+
+U apple_list%b		apple_list.adb		3f743585 NE OO PK IL
+W unchecked_deallocation%s
+
+U apple_list%s		apple_list.ads		c4996d78 EE NE OO PK IL
+
+D apple_list.ads	20150409214512 c4996d78
+D apple_list.adb	20150409214512 daa84e59
+D system.ads		20140416144310 90249111
+D unchdeal.ads		20070406091342 214516a4
+X 1 apple_list.ads
+1K9*apple_list 23l5 23e15 2|2b14 77l5 77t15
+8P10*aptr(17R9) 10r38 11r40 12r33 13r32 13r45 18r13 21c9 2|9r75 14r38 16r14
+. 17r14 35r39 44r33 47r14 61r32 61r45 63r15 64r15
+10U15*add_apple 10=25 2|14b14 30l8 30t17
+10p25 list{8P10} 2|14b24 16r22 22r10 23m10
+11U15*initialize 11=26 2|35b14 39l8 39t18
+11p26 list{8P10} 2|35b25 38m9
+12V14*get_score{integer} 12>24 2|44b13 56l8 56t17
+12p24 list{8P10} 2|44b23 47r22
+13V14*clear_apple{8P10} 13>26 2|61b13 73l8 73t19
+13p26 list{8P10} 2|61b25 63r23
+17R9 Apple_rec 19e14 21r24 2|9r56 20r22
+18p7*next{8P10} 2|21m15 25r29 26r32 28m18 51r29 69r28
+X 2 apple_list.adb
+9U11 free[4|20] 70s9
+16p4 current{1|8P10} 25r21 26m13 26r24 28m10 28r10
+17p4 new_rec{1|8P10} 20m7 21m7 21r7 23r18 28r26
+46i4 n{integer} 52m10 52r15 54m7 54r12 55r14
+47p4 current{1|8P10} 50r18 51m10 51r21
+63p4 current{1|8P10} 67r18 68r21 69m9 69r20
+64p4 previous{1|8P10} 68m9 70m14 70r14
+X 4 unchdeal.ads
+17+9 Object 2|9r46
+18P9 Name(17+9) 2|9r67
+20u11*Unchecked_Deallocation 2|1w6 9r23
+

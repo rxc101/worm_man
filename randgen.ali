@@ -1,0 +1,66 @@
+V "GNAT Lib v4.8"
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U randgen%b		randgen.adb		b695ccde OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U randgen%s		randgen.ads		1e65eca1 EE NE OO PK IL
+
+D ada.ads		20070406091342 3ffc8e18
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nudira.ads		20100622172941 2fef2912
+D a-nudira.adb		20100622172941 e57ce22b
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D randgen.ads		20150324110114 1e65eca1
+D randgen.adb		20150325153740 871f096d
+D system.ads		20140416144310 90249111
+D s-exctab.ads		20090417131547 66e51330
+D s-imguns.ads		20090409150019 9ff43cf7
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-rannum.adb		20130102110615 34372cc7
+D s-ransee.ads		20120130115052 01a57b33
+D s-secsta.ads		20110830140625 eea35a36
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-valuns.ads		20090409150019 10a8ed3b
+X 1 ada.ads
+16K9*Ada 19e8 8|1r6 5r28
+X 2 a-numeri.ads
+16K13*Numerics 32e17 8|1r10 5r32
+X 3 a-nudira.ads
+44k22*Discrete_Random 73e33 8|1w19 5r41
+48R9*Generator 8|7r19[5]
+50V13*Random{integer} 8|11s23[5]
+53U14*Reset<12|91p14> 8|16s13[5]
+X 4 a-nudira.adb
+51V16 Random[12|74]{integer} 13|390b13[8|5]
+X 6 interfac.ads
+61M9*Unsigned_32
+64M9*Unsigned_64
+X 7 randgen.ads
+2K9*RandGen 4l5 4e12 8|2b14 17l5 17t12
+3V13*generate_random_number{integer} 3>38 8|9b13 12l8 12t30
+3i38 n{positive} 8|9b38 11r39
+X 8 randgen.adb
+4I12 Rand_Range{positive} 5r57
+5K12 Rand_Int[3|44] 7r10 11r14 16r4
+7r4 gen{3|48R9[5]} 11r30 16r19
+X 12 s-rannum.ads
+66V13*Random{6|61M9} 13|219i21
+67V13*Random{6|64M9} 13|219i21
+

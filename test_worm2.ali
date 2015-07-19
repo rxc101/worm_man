@@ -1,0 +1,176 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK
+RV MAX_TASKS=1+
+
+U test_worm2%b		test_worm2.adb		ed31d920 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W apple_list%s		apple_list.adb		apple_list.ali
+W randgen%s		randgen.adb		randgen.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W worm_2%s		worm_2.adb		worm_2.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-caldel.ads		20090409150019 9f20b83d
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nudira.ads		20100622172941 2fef2912
+D a-nudira.adb		20100622172941 e57ce22b
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D apple_list.ads	20150409214512 c4996d78
+D interfac.ads		20110906094621 129923ea
+D i-c.ads		20110801143639 5421119b
+D i-cstrea.ads		20130102105938 3286f6aa
+D randgen.ads		20150324110114 1e65eca1
+D system.ads		20140416144310 90249111
+D s-atacco.ads		20120515093410 4c36d12f
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-linux.ads		20110906091515 70c7cb45
+D s-multip.ads		20101011073009 38ac9f73
+D s-oscons.ads		20140416144311 70c72966
+D s-osinte.ads		20120309145048 938b6b03
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stausa.ads		20110804134155 017a0a05
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-tasinf.ads		20120730151500 21316953
+D s-taspri.ads		20110927094500 15f617a8
+D s-taprop.ads		20111212143339 1dd2e1b6
+D s-taskin.ads		20121029113218 59e95256
+D s-tassta.ads		20121029110946 70812003
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+D test_worm2.adb	20150411200703 b2e6ec44
+D worm_2.ads		20150411183136 64e2e1df
+X 1 ada.ads
+16K9*Ada 19e8 51|1r6 2r6 2r31 4r6 5r5 33r17 50r7 51r7 54r7 55r7 174r7 175r7
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[15|45] 51|2w10 2r35
+X 8 a-numeri.ads
+16K13*Numerics 32e17 51|4r10
+X 9 a-nudira.ads
+44k22*Discrete_Random 73e33 51|4w19
+X 14 a-textio.ads
+49K13*Text_IO 471e16 51|1w10 5r9 33r21 50r11 51r11 54r11 55r11 174r11 175r11
+52P9*File_Type(369R9) 51|22r15
+73I12*Field{integer}
+166U14*New_Line 51|156s25
+208U14*Put 51|50s19 54s19 174s19
+208e19 Item{character} 51|50r24 54r24 174r24
+223U14*Get_Immediate 51|33s29
+240U14*Get 51|159s25
+240s19 Item{string} 51|159r29
+242U14*Put 51|51s19 55s19 89s9 118s17 135s25 158s25 175s19
+242s19 Item{string} 51|51r24 55r24 175r24
+263U14*Put_Line 51|99s9 100s9 101s9 102s9 103s9 104s9 117s17 157s24
+X 15 a-tiinio.ads
+65U14*Put 51|90s9[6|18]
+66i7 Item{integer} 51|90r13[6|18]
+67i7 Width{14|73I12} 51|90r49[6|18]
+X 17 apple_list.ads
+1K9*apple_list 23e15 51|8w6 18r15 90r19 155r32 162r41 164r30
+8P10*aptr(17R9) 51|18r26
+12V14*get_score{integer} 51|90s30 155s43 162s52
+13V14*clear_apple{8P10} 51|164s41
+X 21 randgen.ads
+2K9*RandGen 4e12 51|6w6 7r5
+X 38 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 51 test_worm2.adb
+10U11*test_worm2 10b11 177l5 177t15
+12a5 lvl01{52|15A10} 86m19 87r21 111r23
+13r5 worm_l{52|19R10} 92m9 93m9 111m30 111r30
+14r5 worm_b{52|19R10} 94m9 95m9 111m38 111r38
+15a5 worm_f{52|25A10} 82m17 111m46 111r46
+16i5 pos_x{integer} 69m9 87m27 92r21 94r21
+16i11 pos_y{integer} 70m9 87m33 93r21 95r21
+16i17 app_x{integer} 71m9 87m40 111m76 111r76
+16i24 app_y{integer} 72m9 87m47 111m83 111r83
+17b5 apple{boolean} 68m9 111m54 111r54
+18p5 ap_list{17|8P10} 90r40 111m67 111r67 155r53 162r62 164m19 164r53
+19a5 mapname{52|27A13} 63m12 86r25 126m20 128m19
+20i5 Hscore{integer} 154m35 155r23
+21a5 HSI{52|13A13} 154m31 159m37 162r36
+22p5 hs_file{14|52P9}
+25t12 quit 26b17 45l9 45t13
+76i13 y{integer} 82r27
+81i17 x{integer} 82r24
+X 52 worm_2.ads
+4K9*worm_2 51|3w6 5r18 52|93e11
+11i5*LENGTH{integer} 51|81r25
+12i5*HEIGHT{integer} 51|76r21
+13A13*hs_string{string}<integer> 51|21r15
+14A13*map_unit{string}<integer>
+15A10*maparray(character)<integer><integer> 51|12r15
+16n24*none{16E10} 51|82r35
+19R10*worm_location 51|13r15 14r15 52|23e15
+20i9*x{integer} 51|92m16 94m16
+21i9*y{integer} 51|93m16 95m16
+22e9*d{16E10} 51|82m30
+25A10*worm_length(19R10)<integer><integer> 51|15r15
+27A13*mapstring{string}<integer> 51|19r15
+28a5*user_input{14A13} 51|33m43 33r43 35r21 35r46 35r71 36r24 37r43 119r30
+. 119r55 120r25 120r51 136r38 136r63 137r32 137r58 147r21
+29b5*cont{boolean} 51|41r17 58r15 149m21
+30b5*dead{boolean} 51|32r17 67m9 107r16 111m61 111r61 113r16 121m24 122m24
+. 138m31 139m31
+31o5*speed{duration} 51|110r19 115m17
+32i5*life_count{integer} 51|62r13 125r21 127r24 151r21 153m20
+33a5*control_input{14A13} 51|37m23 114m17
+42U11*MoveCursor 51|88s9 98s9 116s17 133s24
+46U11*get_level 51|86s9
+52U11*print_level 51|87s9
+56U11*display_menu 51|56s7
+60U11*game_over 51|132s24
+65U11*ClearScreen 51|59s9 131s24 148s21
+71U11*get_hscore 51|154s20
+72U11*write_hscore 51|162s23
+74U11*worm_move 51|111s13
+

@@ -1,0 +1,135 @@
+V "GNAT Lib v6.2"
+M P W=b
+P SS ZX
+R nnnnnnvnnnnnnnnnnnnnvnvnvnnnnnnnnnnvnnnvnnnvnvnnnnnnvnnnnnvnnnnnnnnv1+nnnnnn
+
+U worm%b		worm.adb		0765c145 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20080522031727 9c7dd3ea
+D a-calend.ads		20080522031635 19486c30
+D a-caldel.ads		20080522031634 c565f6eb
+D a-except.ads		20080522031647 b54b55de
+D a-finali.ads		20080522031650 9eaacebd
+D a-filico.ads		20080522031649 9299732a
+D a-inteio.ads		20080522031650 03bc737c
+D a-ioexce.ads		20080522031652 be0900a0
+D a-reatim.ads		20080522031659 7c462ab4
+D a-stream.ads		20080522031703 34aca5be
+D a-tags.ads		20080522031712 bfa07446
+D a-textio.ads		20080522031713 bc6e78fe
+D a-tiinio.ads		20080522031716 949a7272
+D a-unccon.ads		20080522031717 51e09df2
+D interfac.ads		20080522031816 a69cad5c
+D i-c.ads		20080522031812 bc3ef662
+D i-cstrea.ads		20080522031813 e1e064a9
+D system.ads		20080522032001 53113720
+D s-atacco.ads		20080522031835 60789a20
+D s-crtl.ads		20080522031842 997234a1
+D s-exctab.ads		20080522031843 5c1c61ae
+D s-ficobl.ads		20080522031845 8bb681e5
+D s-finimp.ads		20080522031846 9449f4cb
+D s-finroo.ads		20080522031846 1408f9d1
+D s-linux.ads		20080522031856 ad070dbe
+D s-osinte.ads		20080522031859 b04c0edf
+D s-parame.ads		20080522031916 f32e56e9
+D s-secsta.ads		20080522031919 7bae3621
+D s-soflin.ads		20080522031920 0c6fd39d
+D s-stache.ads		20080522031922 257b3be8
+D s-stausa.ads		20080522031922 653209dc
+D s-stalib.ads		20080522031922 52b793d5
+D s-stoele.ads		20080522031923 ed966df3
+D s-stoele.adb		20080522031923 e9998c78
+D s-stratt.ads		20080522031924 fef7c1da
+D s-tasinf.ads		20080522031928 268f0cd4
+D s-taspri.ads		20080522031930 5459bcd0
+D s-taprop.ads		20080522031927 25a7965c
+D s-taskin.ads		20080522031930 331d9786
+D s-tassta.ads		20080522031932 ad0e605c
+D s-traent.ads		20080522031936 bd5f2753
+D s-unstyp.ads		20080522031937 c0f9fae5
+D s-wchcon.ads		20080522031943 ab028799
+D worm.adb		20150320165259 b8b7cac7
+X 1 ada.ads
+16K9*Ada 19e8 44|1r6 2r6 3r5 36r25 48r12 49r12 50r12 51r12 52r12 53r12 54r12
+. 112r12 113r12 114r12
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[13|48] 44|2w10 51r16 53r16
+X 12 a-textio.ads
+51K13*Text_IO 483e16 44|1w10 3r9 36r29 48r16 49r16 50r16 52r16 54r16 112r16
+. 113r16 114r16
+54P9*File_Type(346R9) 44|62r29
+55n23*In_File{55E9} 44|65r33
+76I12*Field{integer}
+95U14*Open 44|65r12
+101U14*Close 44|72r12
+146U14*Flush 44|48r24 114r24
+169U14*New_Line 44|84r15 100r25
+171U14*Skip_Line 44|70r15
+208U14*Get 44|68r18
+211U14*Put 44|49r24 52r24 54r24 81r18 95r17 98r33 112r24
+211e19 Item{character} 44|49r29 52r29 54r29 112r29
+226U14*Get_Immediate 44|36r37
+245U14*Put 44|50r24 113r24 128r25 134r25 140r25 146r25 152r25 159r25 165r25
+. 170r25
+245s19 Item{string} 44|113r29
+X 13 a-tiinio.ads
+68U14*Put 44|51r32[7|18] 53r32[7|18]
+69i7 Item{integer} 44|51r37[7|18] 53r37[7|18]
+70i7 Width{12|76I12} 44|51r50[7|18] 53r53[7|18]
+X 44 worm.adb
+5U11*worm 5b11 208l5 208t9
+12i9 LENGTH{integer} 16r35 67r27 80r27
+13i9 HEIGHT{integer} 16r46 66r24 79r24
+15A17 map_unit{string}<integer> 25r22
+16A14 maparray(character)<integer><integer> 61r45 77r46 90r38 120r38 176r20
+17E14 direction 17e50 22r17
+17n28 up{17E14}
+17n32 right{17E14} 22r30
+17n39 down{17E14}
+17n45 left{17E14}
+19R14 worm_location 23e19 120r66 177r18
+20i13 x{integer} 125r45 130m33 130r47 133r45 136r44 142m34 142r48 145r45
+. 148r55 154m34 154r48 157r41 161r56 167m34 167r48 194m16
+21i13 y{integer} 125r56 129m34 129r48 133r56 136r55 141m34 141r48 145r56
+. 148r44 153m34 153r48 157r52 161r45 166m34 166r48 195m16
+22e13 d{17E14}
+25a9 user_input{15A17} 36m51 37r29 123r21 135r24 147r24 160r24 202r20
+29t14 quit 30b19 41l13 41t17
+46U19 MoveCursor 46b19 46>31 46>49 55l13 55t23 125r25 133r25 136r24 145r25
+. 148r24 157r21 161r25
+46i31 Column{integer} 53r45
+46i49 Row{integer} 51r45
+61U19 get_level 61b19 61<29 73l13 73t22 198r9
+61a29 level_one{16A14} 68m38
+62p12 level_one_file{12|54P9} 65m17 68r22 70r25 72m18
+66i16 y{integer} 68r50
+67i19 x{integer} 68r48
+77U19 print_level 77b19 77>31 87l13 87t24 199r9
+77a31 level_one{16A14} 81r22
+79i16 y{integer} 81r34
+80i19 x{integer} 81r32
+90U19 rendermap 90b19 90>29 102l13 102t22
+90a29 map{16A14} 95r21 98r37
+96i21 i{integer} 98r41
+97i29 j{integer} 98r44
+110U18 ClearScreen 110b18 116l13 116t24 189r9
+120U19 worm_move 120b19 120>29 120=48 172l13 172t22 206r17
+120a29 map{16A14}
+120r48 location{19R14} 125r36 125r47 129m25 129r39 130m24 130r38 133r36 133r47
+. 136r35 136r46 141m25 141r39 142m25 142r39 145r36 145r47 148r35 148r46 153m25
+. 153r39 154m25 154r39 157r32 157r43 161r36 161r47 166m25 166r39 167m25 167r39
+176a9 lvl01{16A14} 196m9 198m19 199r21 206r27
+177r9 worm_l{19R14} 194m9 195m9 206m34
+
